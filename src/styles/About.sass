@@ -1,0 +1,56 @@
+@use 'variables'
+    
+.about
+    width: 100%
+    position: relative
+    text-align: center
+    margin-top: 5rem
+    margin-bottom: 1rem
+    .about-container
+        padding: 0 2%
+        h1
+            color: variables.$Verde-escuro
+        .about-wrapper
+            display: flex
+            flex-wrap: wrap
+            justify-content: center
+            align-items: center
+            padding: 2rem 0
+            .image
+                width: fit-content
+                position: relative
+                min-width: fit-content
+                border-radius: 50%
+                margin: 2rem 0
+                img
+                    position: relative !important
+                    min-width: 300px !important
+                    min-height: 300px !important
+                    max-height: 400px !important
+                    max-width: 400px !important
+                    border-radius: 50% !important
+                    border: 3px solid variables.$Laranja !important
+            div
+                display: flex
+                flex-direction: column
+                align-items: center
+                span
+                a
+                    margin-top: 2rem
+                    width: fit-content
+                    text-decoration: none
+                    background-color: variables.$Verde-escuro
+                    padding: .7rem 2rem
+                    color: #eee
+                    text-transform: uppercase
+                    font-weight: 600
+                    border-radius: 30px
+                    font-size: 1.2rem
+
+@media screen and ( min-width: 992px  )
+    .about-wrapper
+        .image
+            width: 50% !important
+        div
+            width: 50%
+    

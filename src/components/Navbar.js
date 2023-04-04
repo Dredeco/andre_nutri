@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link';
 import React, {useEffect} from 'react'
 
-import Logo from './../../public/logo.png'
+import Logo from './../../public/newlogo2.png'
 
 export default function Navbar() {
 
@@ -27,8 +27,8 @@ export default function Navbar() {
           <Image 
             className='logo'
             src={Logo}
-            width='200'
-            height='30'
+            width='150'
+            height='50'
           />
         </a>
 

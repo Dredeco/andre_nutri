@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 
 import User from './../../public/images/user.jpg'
 
@@ -12,7 +12,8 @@ export default function About() {
                 <div className='image'>
                 <Image 
                     src={User}
-                    layout='fill'
+                    width={300}
+                    height={300}
                     objectFit='cover'
                     alt=''
                 />

@@ -27,7 +27,7 @@ export default function Navbar() {
           <Image 
             className='logo'
             src={Logo}
-            width='150'
+            width='140'
             height='50'
           />
         </a>

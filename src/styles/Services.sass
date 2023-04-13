@@ -1,0 +1,45 @@
+@use 'variables'
+    
+.services
+    background-image: url("./../../public/images/muscle.png")
+    background-position: center
+    background-repeat: no-repeat
+    background-size: cover
+    min-height: 500px
+    .layer
+        min-height: 500px
+        padding: 1.5rem 0
+        background-color: rgba(#404040, .7)
+        .container
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-content: center
+            min-height: 500px
+            h1
+                color: #fff
+                text-align: center
+                margin: 2rem 0
+                strong
+                    color: variables.$Laranja
+            .wrapper
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                gap: 1rem
+                .card
+                    display: flex
+                    flex-direction: row
+                    align-items: center
+                    gap: .5rem
+                    width: 351px
+                    max-width: 370px
+                    padding: .5rem .5rem
+                    border-radius: 10px
+                    i
+                        position: relative
+                        top: -5px
+                        font-size: 2rem
+                        color: variables.$Verde-escuro
+                    span
+                        font-weight: 600

@@ -6,6 +6,9 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Feedback from '@/components/Feedback'
+import CTA from '@/components/CTA'
+import Services from '@/components/Services'
+import Contact from '@/components/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -27,6 +30,9 @@ export default function Home() {
         <Hero />
         <About />
         <Feedback />
+        <CTA />
+        <Services />
+        <Contact />
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossOrigin="anonymous"></script>
       </main>

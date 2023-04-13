@@ -49,18 +49,24 @@ export default function Navbar() {
                 <Link 
                 class="nav-link active"
                 aria-current="page"
-                href="#">Home
+                href="#">Início
                 </Link>
 
                 <Link class="nav-link" 
-                href="#about">Sobre
+                  href="#about">Sobre
                 </Link>
 
                 <Link class="nav-link" 
-                href="#projects">Projetos</Link>
+                  href="#feedback">Depoimentos
+                </Link>
 
                 <Link class="nav-link" 
-                href="#contact">Contato</Link>
+                  href="#services">Atendimento
+                </Link>
+
+                <Link class="nav-link" 
+                  href="#contact">Contato
+                </Link>
             </div>
         </div>
     </div>

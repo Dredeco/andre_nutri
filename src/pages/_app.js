@@ -6,6 +6,7 @@ import '@/styles/Feedback.sass'
 import '@/styles/CTA.sass'
 import '@/styles/Services.sass'
 import '@/styles/Contact.sass'
+import '@/styles/Footer.sass'
 
 export default function App({ Component, pageProps }) {
   return <Component {...pageProps} />
